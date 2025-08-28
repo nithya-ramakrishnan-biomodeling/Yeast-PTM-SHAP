@@ -15,7 +15,7 @@ Transrate.csv - Reference dataset for transcription rates with gene mapping.
 
 my_list.csv & output.csv - Mapping files for resolving missing genes.
 
-REQUIRED LIBRARIES 
+REQUIRED LIBRARIES --
 pip install numpy pandas pyreadr shap matplotlib seaborn scikit-learn imbalanced-learn xgboost plotly
 
 
