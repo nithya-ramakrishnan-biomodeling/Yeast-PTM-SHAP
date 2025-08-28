@@ -176,7 +176,9 @@ def allMLmodels():
     plt.tight_layout()
     plt.show()
 
-
+# ----------------------------------------------------------------
+# Waterfall plots for gene specific contibution
+# ----------------------------------------------------------------
 def Waterfallplots():
     original_features = ['-3', '-2', '-1', '1', '2', '3', '4', '5', '6', '7', '8']
 
@@ -332,7 +334,9 @@ def Waterfallplots():
     # top3_df = pd.DataFrame(top3_records)
     # #top3_df.to_csv(r"C:\Edu\project\projecttop3_features_per_modification.csv", index=False)
 
-
+# ----------------------------------------------------------------
+# Lollipop plots for overall contribution from each gene
+# ----------------------------------------------------------------
 def lollipop_plots():
     original_features = ['-3', '-2', '-1', '1', '2', '3', '4', '5', '6', '7', '8']
 
@@ -505,7 +509,9 @@ def lollipop_plots():
 
     fig.show()
 
-
+# ----------------------------------------------------------------
+# Combining all PTMs
+# ----------------------------------------------------------------
 def all_26mods_combined():
     original_features = ['-3', '-2', '-1', '1', '2', '3', '4', '5', '6', '7', '8']
 
@@ -574,3 +580,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
